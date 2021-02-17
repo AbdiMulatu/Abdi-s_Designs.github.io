@@ -1,0 +1,141 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(Background\ image2.jpg);
+	background-size:contain;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+}
+.navbar .logo{
+	width: 150px;
+	height: auto;
+	padding: 30px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:darkred;
+	border-radius: 2px;
+}
+
+.wrapper h1{ 
+text-align: center;	
+padding-top: 2in;
+text-decoration-color: darkblue;
+font-style: italic;
+font-weight: bolder;
+}
+
+.wrapper h2{
+	text-align: center;	
+	padding-top: 0.2in;
+	text-decoration-color: black;
+	font-style: italic;
+	font-weight: bolder;
+	}
+.wrapper h4{
+	text-align: center;	
+	padding-top: 0.2in;
+	text-decoration-color: black;
+	font-style: italic;
+	font-weight: bolder;
+}
+.list{
+	font-size: x-large;
+	color:midnightblue;
+}
+.main{
+	font-size: x-large;
+	color:midnightblue;
+}
+.paragraph{
+	font-size: x-large;
+	color:midnightblue;
+
+}
+.paragraph2{
+	font-size: x-large;
+	color: midnightblue;
+}
+.paragraph3{
+	font-size: x-large;
+	color: midnightblue;
+}
+.paragraph4{
+	font-size: x-large;
+	color: midnightblue;
+}
+.why {
+	font-size: x-large;
+	color:midnightblue;	
+}
+.Adress{ 
+	text-align: center;
+	font-size: x-large;
+	color:darkred;
+	
+}
+.Address1{
+	float: left;
+	font-weight: bolder;
+	font-size: larger;
+}
+.Adress2{
+	float: right;
+	font-weight: bolder;
+	font-size: larger;
+}
+.Adress3{
+	text-align: center;
+	font-weight: bolder;
+	font-size: larger;
+}
+.Email{
+	text-align: center;
+	padding-top: 1in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
